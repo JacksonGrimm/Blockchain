@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier-format": "prettier --config .prettierrc './*.ts' --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacksonGrimm/Blockchain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacksonGrimm/Blockchain/issues"
+  },
+  "homepage": "https://github.com/JacksonGrimm/Blockchain#readme",
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "prettier": "^2.8.4",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "bcrypt": "^5.1.0",
+    "ts-node": "^10.9.1"
+  }
+}
