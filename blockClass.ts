@@ -19,12 +19,14 @@ class Block {
 }
 
 const createBlock = async (objectArray:Object[]) => {
-    const block1 = new Block(Date.now(), objectArray)
-    await block1.initialize()
-    console.log(block1)
+    const block = new Block(Date.now(), objectArray)
+    await block.initialize()
+    return block
 }
-createBlock([{
+
+console.log(createBlock([{
     to: "bill",
     from: "tim",
     amount: "100"
-}])
+}]))
+export {createBlock}
